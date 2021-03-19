@@ -8,14 +8,14 @@ import (
 
 type Account struct {
 	mutex sync.Mutex
-	ID	 		uint
-	Name 		string
-	Email 		string
-	Wallet 		Wallet
+	ID      uint
+	Name 	string
+	Email 	string
+	Wallet 	Wallet
 }
 
 type Wallet struct {
-	ID 		uint
+	ID.     uint
 	Balance float64
 }
 
